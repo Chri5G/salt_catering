@@ -23,8 +23,7 @@ export const NavBar = () => {
           },
           {
             title: "Monthly Specials",
-            href: "/specials",
-            sublinks: false
+            href: "/monthly_specials",
           },
           {
             title: "Bakery",
@@ -38,7 +37,6 @@ export const NavBar = () => {
           {
             title: "Contact Us",
             href: "/contact_us",
-            sublinks: false
           },
         ]}
         navBackground="bg-neutral-900"

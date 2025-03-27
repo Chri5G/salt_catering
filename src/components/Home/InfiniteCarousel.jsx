@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaEye, FaArrowLeft, FaArrowRight, FaTimes } from "react-icons/fa";
-import useIsMobile from "../isMobile";
 
 const InfiniteCarousel = ({ images }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);

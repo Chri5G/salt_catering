@@ -1,10 +1,13 @@
 import './App.css'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from './components/Home/Home'
-import NotFound from './components/NotFound'
 import Header from './components/Header';
-import Catering from './components/Catering';
+import Catering from './components/Catering/Catering';
+import PastEvents from './components/Catering/PastEvents';
+import MonthlySpecials from './components/MonthlySpecials';
 import Sourdough from './components/Sourdough';
+import ContactUs from './components/ContactUs';
+import NotFound from './components/NotFound'
 
 function App() {
 
@@ -14,9 +17,12 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="*" element={<NotFound />} />
           <Route path='/catering' element={<Catering />} />
+          <Route path='/catering/past_events' element={<PastEvents />} />
+          <Route path='/monthly_specials' element={<MonthlySpecials />} />
           <Route path='/sourdough' element={<Sourdough />}/>
+          <Route path='/contact_us' element={<ContactUs />}/>
+          <Route path="*" element={<NotFound />} />
         </Routes>      
       {/* <Footer /> */}
     </Router>
