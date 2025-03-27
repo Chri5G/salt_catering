@@ -8,14 +8,16 @@ const images = [
 ]
 
 const carouselImages = [
-  "/imgs/logo_black.jpg",
-  "/imgs/logo_white.jpg",
-  "/imgs/logo_black.jpg",
-  "/imgs/logo_white.jpg",
-  "/imgs/logo_black.jpg",
-  "/imgs/logo_white.jpg",
-  "/imgs/logo_black.jpg",
-  "/imgs/logo_white.jpg"
+  "/imgs/carousel/sourdough-1.jpg",
+  "/imgs/carousel/catering-1.jpg",
+  "/imgs/carousel/sourdough-2.avif",
+  "/imgs/carousel/catering-2.jpg",
+  "/imgs/carousel/sourdough-3.jpg",
+  "/imgs/carousel/catering-3.jpg",
+  "/imgs/carousel/sourdough-4.jpg",
+  "/imgs/carousel/catering-4.webp",
+  "/imgs/carousel/sourdough-5.jpg",
+  "/imgs/carousel/catering-5.jpg"
 ]
 
 export default function Home() {
@@ -40,14 +42,14 @@ export default function Home() {
       {/* 2 Picture section with links */}
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-20'>
         <div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center rounded-xl" 
-        style={{backgroundImage: "url('/imgs/logo_black.jpg')"}}>          
+        style={{backgroundImage: "url('/imgs/catering/1.avif')"}}>          
         <a href='/catering' target='blank'>
           <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Catering</p>
         </a>
         </div>
         <div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center
         rounded-xl" 
-        style={{'backgroundImage': "url('/imgs/logo_white.jpg')"}}>
+        style={{'backgroundImage': "url('/imgs/sourdough/1.jpeg')"}}>
         <a href='/sourdough' target='blank'>
           <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Sourdough</p>
         </a>

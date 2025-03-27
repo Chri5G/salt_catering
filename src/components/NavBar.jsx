@@ -29,8 +29,8 @@ export const NavBar = () => {
             title: "Bakery",
             sublinks: [
               {
-                title: "Sourdough Menu",
-                href: "/sourdough",
+                title: "Sourdough",
+                href: "/bakery/sourdough",
               },
             ],
           },
