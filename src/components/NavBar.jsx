@@ -67,10 +67,10 @@ const RoundedDrawerNav = ({
     <>
       <nav
         onMouseLeave={() => setHovered(null)}
-        className={`${navBackground} p-2 fixed top-0 w-[100%] z-50`} // Position fixed, top-0, and z-index for visibility
+        className={`${navBackground} fixed top-0 w-[100%] z-50`} // Position fixed, top-0, and z-index for visibility
       >
-        <div className="flex items-center justify-between px-5">
-          <div className="flex items-start">
+        <div className="flex items-center justify-between">
+          <div className="flex items-start pl-10">
             <Logo />
           </div>
           <div>
@@ -104,7 +104,7 @@ const RoundedDrawerNav = ({
 const Logo = () => {
   return (
     <a href="/">
-      <img src="/imgs/logo_black.jpg" className="w-24 h-16"></img>
+      <img src="/imgs/logo_trans.png" className="w-24 h-24"></img>
     </a>
   );
 };
@@ -122,7 +122,7 @@ const DesktopLinks = ({ links, setHovered, hovered, activeSublinks }) => {
   };
 
   return (
-    <div className="ml-9 mt-0.5 hidden md:block">
+    <div className=" mt-0.5 hidden md:block pr-10">
       <div className="flex gap-6">
         {links.map((l) => (
           <TopLink 
