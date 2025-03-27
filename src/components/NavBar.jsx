@@ -29,6 +29,10 @@ export const NavBar = () => {
             title: "Bakery",
             sublinks: [
               {
+                title: "Menu",
+                href: "/bakery",
+              },
+              {
                 title: "Sourdough",
                 href: "/bakery/sourdough",
               },

@@ -50,8 +50,8 @@ export default function Home() {
         <div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center
         rounded-xl" 
         style={{'backgroundImage': "url('/imgs/sourdough/1.jpeg')"}}>
-        <a href='/sourdough' target='blank'>
-          <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Sourdough</p>
+        <a href='/bakery' target='blank'>
+          <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Bakery</p>
         </a>
         </div>
       </div>
