@@ -43,14 +43,14 @@ export default function Home() {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-20'>
         <div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center rounded-xl" 
         style={{backgroundImage: "url('/imgs/catering/1.avif')"}}>          
-        <a href='/catering' target='blank'>
+        <a href='/catering'>
           <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Catering</p>
         </a>
         </div>
         <div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center
         rounded-xl" 
         style={{'backgroundImage': "url('/imgs/sourdough/1.jpeg')"}}>
-        <a href='/bakery' target='blank'>
+        <a href='/bakery'>
           <p className="text-2xl font-bold bg-black bg-opacity-50 p-4 rounded-lg">Bakery</p>
         </a>
         </div>
