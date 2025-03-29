@@ -9,6 +9,7 @@ import Bakery from './components/Bakery/Bakery';
 import Sourdough from './components/Sourdough';
 import ContactUs from './components/ContactUs';
 import NotFound from './components/NotFound'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
           <Route path='/contact_us' element={<ContactUs />}/>
           <Route path="*" element={<NotFound />} />
         </Routes>      
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   )
 }

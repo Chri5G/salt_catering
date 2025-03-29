@@ -185,7 +185,7 @@ const MobileLinks = ({ links, open }) => {
           exit={{
             opacity: 0,
           }}
-          className="grid grid-cols-2 gap-6 py-6 md:hidden"
+          className="grid grid-cols-2 gap-6 py-6 px-5"
         >
           {/* Mobile Menu Dropdown */}
           {links.map((l) => {

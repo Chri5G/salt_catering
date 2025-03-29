@@ -28,12 +28,14 @@ export default function Home() {
       variants={ containerVariants} 
       initial='hidden'
       whileInView='visible'
-      viewport={{once: true}}
+      viewport={{ once: true }}
     >
       <div>
-        <ImageSwitcher  images={images}/>
+        <ImageSwitcher images={images}/>
       </div>
-      <motion.div className='p-20 mw-3/4'
+
+      {/* Family Buisness Makes a Difference */}
+      <motion.div className='py-20 px-5 md:px-20 mw-3/4'
         variants={ yVariants}
       >
         <p className='font-extrabold text-3xl'>Family Business Makes a Difference</p>
@@ -48,9 +50,13 @@ export default function Home() {
           <button className='mt-5 bg-transparent border-2 border-yellow-600 rounded-none'>About us</button>
         </div>
       </motion.div>
+
       {/* 2 Picture section with links */}
       <motion.div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-20'
-        variants={ containerVariants }
+        variants={ containerVariants} 
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ amount: 0.3, once: true }}
       >
         <motion.div className="relative w-full h-96 bg-cover bg-center text-white flex items-center justify-center rounded-xl" 
           style={{backgroundImage: "url('/imgs/catering/1.avif')"}}
@@ -77,7 +83,10 @@ export default function Home() {
 
       {/* 3 long columns with img and text */}
       <motion.div className='bg-black grid grid-cols-1 md:grid-cols-3 pt-10 gap-8 px-10'
-        variants={ containerVariants }
+        variants={ containerVariants} 
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
       >
         <motion.div className='bg-neutral-900 flex flex-col border-2 border-transparent rounded-xl p-5'
           variants={ yVariants }
