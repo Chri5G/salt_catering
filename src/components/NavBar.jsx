@@ -108,7 +108,7 @@ const RoundedDrawerNav = ({
 const Logo = () => {
   return (
     <a href="/">
-      <img src="/imgs/logo_trans.png" className="w-24 h-24"></img>
+      <img src="/imgs/logo-trans.png" className="w-24 h-24"></img>
     </a>
   );
 };

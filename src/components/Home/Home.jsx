@@ -82,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* 3 long columns with img and text */}
-      <motion.div className='bg-black grid grid-cols-1 md:grid-cols-3 pt-10 gap-8 px-10'
+      <motion.div className='bg-black grid grid-cols-1 md:grid-cols-3 py-10 gap-8 px-10'
         variants={ containerVariants} 
         initial='hidden'
         whileInView='visible'
