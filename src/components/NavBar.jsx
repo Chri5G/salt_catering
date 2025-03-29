@@ -115,7 +115,6 @@ const Logo = () => {
 
 // Pop Up Hover Links
 const DesktopLinks = ({ links, setHovered, hovered, activeSublinks }) => {
-  console.log(activeSublinks)
   const handleMouseEnter = (title) => {
     // Only setHovered when there are sublinks
     if (title == "Monthly Specials" || title == "Contact Us") {

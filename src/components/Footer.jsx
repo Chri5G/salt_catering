@@ -54,8 +54,6 @@ export default function Footer() {
           </ul>
           <div className='text-center mt-5'>
             <a href='/monthly_specials'
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale:0.95 }}
               className='inline-block'
             ><motion.p className='font-bold'
               whileHover={{ scale: 1.1 }}
