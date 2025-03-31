@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiMenu } from "react-icons/fi";
-import { FaCircleChevronRight } from "react-icons/fa6";
 
 export const NavBar = () => {
   return (
@@ -74,7 +73,7 @@ const RoundedDrawerNav = ({
         className={`${navBackground} fixed top-0 w-[100%] z-50`} // Position fixed, top-0, and z-index for visibility
       >
         <div className="flex items-center justify-between">
-          <div className="flex items-start pl-10">
+          <div className="flex items-start ml-5">
             <Logo />
           </div>
           <div>
@@ -89,7 +88,7 @@ const RoundedDrawerNav = ({
           {/* Mobile Menu Sandwhich */}
           <motion.button
             onClick={() => setMobileNavOpen((pv) => !pv)}
-            className="bg-black mt-1.5 block text-2xl text-neutral-50 md:hidden"
+            className="bg-black my-auto mr-5 text-2xl text-neutral-50 md:hidden"
             whileTap={{ scale: 0.9}}
           >
             <FiMenu />
