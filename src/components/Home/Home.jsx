@@ -53,7 +53,7 @@ export default function Home() {
       </motion.div>
 
       {/* 2 Picture section with links */}
-      <motion.div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-20'
+      <motion.div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-20 px-5'
         variants={ containerVariants} 
         initial='hidden'
         whileInView='visible'
