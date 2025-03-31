@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       {/* Family Buisness Makes a Difference */}
-      <motion.div className='py-20 px-5 md:px-20 mw-3/4'
+      <motion.div className='py-20 px-5 md:px-36 mw-3/4'
         variants={ yVariants}
       >
         <p className='font-extrabold text-3xl'>Welcome to Salt Custom Catering</p>
